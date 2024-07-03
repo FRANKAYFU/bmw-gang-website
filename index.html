@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝马帮 - BMW Gang</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#works">Our Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to 宝马帮 - BMW Gang</h1>
+            <p>Your trusted community for BMW enthusiasts.</p>
+            <a href="#contact" class="cta-button">Join Us</a>
+        </div>
+    </header>
+    <main>
+        <section id="members">
+            <h2>Members</h2>
+            <div class="tabs">
+                <button class="tablinks" onclick="openTab(event, 'FrankFu')">Frank Fu</button>
+                <button class="tablinks" onclick="openTab(event, 'EddieLin')">Eddie Lin</button>
+                <button class="tablinks" onclick="openTab(event, 'PPWang')">PP Wang</button>
+                <button class="tablinks" onclick="openTab(event, 'CindyCui')">Cindy Cui</button>
+                <button class="tablinks" onclick="openTab(event, 'JerryLi')">Jerry Li</button>
+            </div>
+            <div id="FrankFu" class="tabcontent">
+                <h3>Frank Fu - Leader</h3>
+                <p>Frank Fu is the handsome and rich leader of the BMW Gang, known for his strategic thinking and leadership skills. He owns two BMWs: an 8 Series and an X5.</p>
+                <img src="bmw8series.jpg" alt="BMW 8 Series">
+                <img src="bmwx5.jpg" alt="BMW X5">
+            </div>
+            <div id="EddieLin" class="tabcontent">
+                <h3>Eddie Lin - Gangster</h3>
+                <p>Eddie Lin is the tough and resourceful gangster of the group, known as a human information web who knows everything. He will soon own a BMW 3 Series.</p>
+                <img src="bmw3series.jpg" alt="BMW 3 Series">
+            </div>
+            <div id="PPWang" class="tabcontent">
+                <h3>PP Wang - Finance Accountant</h3>
+                <p>PP Wang manages the finances for the BMW Gang and is capable of fighting five people at once (战绩可查). She is also excellent at accounting.</p>
+                <img src="bmwfinance.jpg" alt="BMW Finance">
+            </div>
+            <div id="CindyCui" class="tabcontent">
+                <h3>Cindy Cui - Gangster Eye Doctor</h3>
+                <p>Cindy Cui is the sharp-eyed eye doctor of the BMW Gang, providing medical expertise and support to the group.</p>
+                <img src="bmweyedoctor.jpg" alt="BMW Eye Doctor">
+            </div>
+            <div id="JerryLi" class="tabcontent">
+                <h3>Jerry Li - Gangster Communication Techno</h3>
+                <p>Jerry Li is the communication technology expert of the BMW Gang. Although he currently drives a Benz, his heart belongs to BMW.</p>
+                <img src="bmwheart.jpg" alt="BMW Heart">
+            </div>
+        </section>
+        <section id="works">
+            <h2>Our Works</h2>
+            <p>We are dedicated to protecting and helping all BMW owners. Our activities include:</p>
+            <ul>
+                <li>Providing security and support for BMW owners.</li>
+                <li>Organizing events and meetups for BMW enthusiasts.</li>
+                <li>Offering financial advice and services to BMW owners.</li>
+                <li>Resolving conflicts and protecting our members from external threats.</li>
+                <li>We strongly oppose another gang, 威虎帮, due to their conflicting interests and activities.</li>
+            </ul>
+            <img src="file-fygHRRPb1PieU73envZNpWen" alt="BMW Security" class="content-image">
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 宝马帮 - BMW Gang | <a href="#privacy">Privacy Policy</a></p>
+        <div class="social-media">
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
